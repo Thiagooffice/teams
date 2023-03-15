@@ -1,3 +1,4 @@
+import { Button } from '@components/Button';
 import {ListEmpty} from '@components/ListEmpty'
 import { Header } from '@components/Header';
 import { Highlight } from '@components/Highlight';
@@ -32,7 +33,10 @@ export default function Groups() {
         />
       )}
       />
-      
+      <Button
+      title='Criar nova turma'
+      type='SECONDARY'
+      />
     </Container>
   );
 }
