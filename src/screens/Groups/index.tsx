@@ -7,7 +7,7 @@ import { Container } from './styles';
 import { useState } from 'react';
 import { FlatList } from 'react-native';
 
-export default function Groups() {
+export function Groups() {
   const [groups, setGroups] = useState<string[]>([])
 
   return (
