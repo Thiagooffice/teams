@@ -3,7 +3,7 @@ import {ButtonIcon} from '@components/ButtonIcon'
 
 type Props = {
     name: string
-    onRemove?: () => void
+    onRemove: () => void
 }
 
 export function PlayerCard({ name, onRemove }: Props) {
